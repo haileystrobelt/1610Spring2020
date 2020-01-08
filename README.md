@@ -7,4 +7,4 @@ Alright a sixth
 Okay I'm kind of down now
 This is kinda dumb lol
 Almost there
-Thank goodness it's over
+Ok I'm done
