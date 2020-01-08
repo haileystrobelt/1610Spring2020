@@ -1,3 +1,1 @@
-1610Spring2020
-
-I love scripting
+This is my first line
