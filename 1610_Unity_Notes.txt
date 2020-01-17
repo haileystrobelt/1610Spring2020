@@ -1,0 +1,11 @@
+We always name functions, classes, and variables
+
+Required on every line of code:
+access modifier (public, private)
+datatype (i.e. string, int)
+name (identifier)
+semicolon (end it)
+
+Functions and classes, the beginning word is capitilized, in variables, it is not.
+Functions/classes: i.e. GameObject
+Variables: i.e. gameObject
