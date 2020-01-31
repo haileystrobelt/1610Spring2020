@@ -35,4 +35,8 @@ public class MouseEvents : MonoBehaviour
     {
         mouseExitEvent.Invoke();
     }
+    
+    //Type things, try typing On... ect.
+    //click on dictionary on different things
+    //read about them
 }
