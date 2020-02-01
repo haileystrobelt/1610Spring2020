@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3fe8c8e-90b0-4a30-a14b-cabcce1edeae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project1/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-    </list>
+    <list default="true" id="d3fe8c8e-90b0-4a30-a14b-cabcce1edeae" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,16 +106,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerUp.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+            <state relative-caret-position="135">
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
-                <marker date="1580448731777" expanded="false" signature="6:78" ph="..." />
-                <marker date="1580448731777" expanded="true" signature="116:236" ph="{...}" />
-                <marker date="1580448731777" expanded="true" signature="213:234" ph="{...}" />
-                <marker date="1580448731777" expanded="true" signature="238:419" ph="/* Using https://www.raywenderlich.com/191-how-to-make-a-power-up-system-in-unity to help figure out how to creat ... */" />
+                <marker date="1580449126480" expanded="false" signature="6:78" ph="..." />
+                <marker date="1580449126480" expanded="true" signature="116:236" ph="{...}" />
+                <marker date="1580449126480" expanded="true" signature="213:234" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MeleeSystem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <marker date="1580536659826" expanded="true" signature="6:78" ph="..." />
+                <marker date="1580536659826" expanded="true" signature="252:273" ph="{...}" />
+                <marker date="1580536659826" expanded="true" signature="331:701" ph="{...}" />
+                <marker date="1580536659826" expanded="true" signature="379:699" ph="{...}" />
+                <marker date="1580536659826" expanded="true" signature="529:693" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -140,6 +149,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Newer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggeringEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MeleeSystem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -151,6 +161,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggeringEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MeleeSystem.cs" />
       </list>
     </option>
   </component>
@@ -225,12 +236,12 @@
       <workItem from="1579714490449" duration="2858000" />
       <workItem from="1580146281043" duration="2596000" />
       <workItem from="1580275048765" duration="4068000" />
-      <workItem from="1580448257357" duration="778000" />
+      <workItem from="1580448257357" duration="2434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15394000" />
+    <option name="totallyTimeSpent" value="17050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,13 +388,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerUp.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        <state relative-caret-position="135">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
-            <marker date="1580448731777" expanded="false" signature="6:78" ph="..." />
-            <marker date="1580448731777" expanded="true" signature="116:236" ph="{...}" />
-            <marker date="1580448731777" expanded="true" signature="213:234" ph="{...}" />
-            <marker date="1580448731777" expanded="true" signature="238:419" ph="/* Using https://www.raywenderlich.com/191-how-to-make-a-power-up-system-in-unity to help figure out how to creat ... */" />
+            <marker date="1580449126480" expanded="false" signature="6:78" ph="..." />
+            <marker date="1580449126480" expanded="true" signature="116:236" ph="{...}" />
+            <marker date="1580449126480" expanded="true" signature="213:234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MeleeSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <marker date="1580536659826" expanded="true" signature="6:78" ph="..." />
+            <marker date="1580536659826" expanded="true" signature="252:273" ph="{...}" />
+            <marker date="1580536659826" expanded="true" signature="331:701" ph="{...}" />
+            <marker date="1580536659826" expanded="true" signature="379:699" ph="{...}" />
+            <marker date="1580536659826" expanded="true" signature="529:693" ph="{...}" />
           </folding>
         </state>
       </provider>
