@@ -8,7 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="ChangeColor.cs" t="Include" />
-          <e p="MeleeSystem.cs" t="Include" />
+          <e p="CharacterMovement.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="NewClass.cs" t="Include" />
           <e p="Newer.cs" t="Include" />
