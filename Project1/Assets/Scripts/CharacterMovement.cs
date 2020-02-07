@@ -4,7 +4,7 @@ public class CharacterMovement : MonoBehaviour
 {
     public CharacterController controller;
     private Vector3 positionDirection;
-    public float speed = 5f;
+    public float speed = 10f;
     public float gravity = -3f;
     public float jumpForce = 10f;
     
