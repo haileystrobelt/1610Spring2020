@@ -10,9 +10,11 @@
           <e p="ChangeColor.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="FollowPlayer.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="NewClass.cs" t="Include" />
           <e p="Newer.cs" t="Include" />
+          <e p="PlayerCollision.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="TriggeringEvents.cs" t="Include" />
