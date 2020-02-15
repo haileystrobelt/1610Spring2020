@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3fe8c8e-90b0-4a30-a14b-cabcce1edeae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-    </list>
+    <list default="true" id="d3fe8c8e-90b0-4a30-a14b-cabcce1edeae" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,19 +10,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerCollision.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding>
-                <marker date="1581222313216" expanded="true" signature="66:192" ph="{...}" />
-                <marker date="1581222313216" expanded="true" signature="125:185" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/IfStatements.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GUIController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -140,6 +123,20 @@
                 <marker date="1581662436397" expanded="true" signature="96:287" ph="{...}" />
                 <marker date="1581662436397" expanded="true" signature="149:244" ph="{...}" />
                 <marker date="1581662436397" expanded="true" signature="264:285" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AudioListener.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding>
+                <marker date="1581730540728" expanded="true" signature="106:325" ph="{...}" />
+                <marker date="1581730540728" expanded="true" signature="165:282" ph="{...}" />
+                <marker date="1581730540728" expanded="true" signature="302:323" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -182,6 +179,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpriteController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -207,6 +205,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpriteController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlareController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GUIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioListener.cs" />
       </list>
     </option>
   </component>
@@ -298,12 +297,12 @@
       <workItem from="1580750427006" duration="3666000" />
       <workItem from="1580923474080" duration="11583000" />
       <workItem from="1581488801599" duration="4261000" />
-      <workItem from="1581661851925" duration="635000" />
+      <workItem from="1581661851925" duration="1297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37840000" />
+    <option name="totallyTimeSpent" value="38502000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -595,6 +594,18 @@
             <marker date="1581662436397" expanded="true" signature="96:287" ph="{...}" />
             <marker date="1581662436397" expanded="true" signature="149:244" ph="{...}" />
             <marker date="1581662436397" expanded="true" signature="264:285" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AudioListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <marker date="1581730540728" expanded="true" signature="106:325" ph="{...}" />
+            <marker date="1581730540728" expanded="true" signature="165:282" ph="{...}" />
+            <marker date="1581730540728" expanded="true" signature="302:323" ph="{...}" />
           </folding>
         </state>
       </provider>
