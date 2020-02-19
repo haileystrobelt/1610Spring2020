@@ -14,9 +14,12 @@
           <e p="CharacterMover.cs" t="Include" />
           <e p="CharacterStat.cs" t="Include" />
           <e p="FlareController.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
           <e p="FollowPlayer.cs" t="Include" />
           <e p="GUIController.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
+          <e p="ImageBehavior.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="LightController.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="NewClass.cs" t="Include" />

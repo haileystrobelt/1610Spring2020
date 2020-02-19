@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterStat : MonoBehaviour
 {
-    public float BaseValue;
+    /*public float BaseValue;
     
     public float Value
     {
@@ -26,7 +26,8 @@ public class CharacterStat : MonoBehaviour
         for (int i = 0; i < statModifiers.Count; i++)
         {
             finalValue += statModifiers[1].Value;
-        }
+        }*/
+/*
 
         return (float) Math.Round(finalValue, 4);
     }
@@ -47,6 +48,7 @@ public class CharacterStat : MonoBehaviour
         BaseValue = baseValue;
         statModifiers = new List<StatModifier>();
     }
+*/
 
 
 }
