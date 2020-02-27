@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7fcc8e9e055d24b478b8f8b9cba460da, type: 3}
-  m_Name: Health
+  m_Name: TimeLimit
   m_EditorClassIdentifier: 
   value: 1
