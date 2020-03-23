@@ -10,10 +10,13 @@ public class CharacterMovement : MonoBehaviour
     public float jumpForce = 10f;
     private int jumpCount = 0;
     public int jumpCountMax = 2;
+
+    private Animator anim;
     
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        anim = GetComponent<Animator>();
     }
 
 
@@ -35,5 +38,35 @@ public class CharacterMovement : MonoBehaviour
         positionDirection.y += gravity;
         //positionDirection.z = Input.GetAxis("Horizontal") * speed;
         controller.Move(positionDirection*Time.deltaTime);
+
+        if (positionDirection.x < 0)
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+
+        if (positionDirection.x > 0)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        }
+
+        if (positionDirection.x == 0)
+        {
+            anim.SetBool("isWalking", false);
+        }
+        else
+        {
+            anim.SetBool("isWalking", true);
+        }
+        
+        if (positionDirection.y == 0)
+        {
+            anim.SetBool("isWalking", false);
+        }
+        else
+        {
+            anim.SetBool("isWalking", true);
+        }
     }
 }
+
+//Referenced youtube.com/watch?v=FTxQKHG5WCA&list=PL1_0JJtF9SoIOTlS5w_j6w1VaB-H5f0-T&index=2
