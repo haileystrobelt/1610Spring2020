@@ -29,6 +29,7 @@
             <e p="StringData.cs" t="Include" />
             <e p="VectorData.cs" t="Include" />
           </e>
+          <e p="Debugger.cs" t="Include" />
           <e p="FollowPlayer.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="ImageBehavior.cs" t="Include" />

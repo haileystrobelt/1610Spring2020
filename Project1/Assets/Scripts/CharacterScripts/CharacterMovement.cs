@@ -27,6 +27,8 @@ public class CharacterMovement : MonoBehaviour
             positionDirection.y = 0;
             jumpCount = 0;
         }
+
+       
         
         positionDirection.x = Input.GetAxis("Horizontal")*speed;
         if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
@@ -35,10 +37,13 @@ public class CharacterMovement : MonoBehaviour
             jumpCount++;
 
         }
+        
         positionDirection.y += gravity;
         //positionDirection.z = Input.GetAxis("Horizontal") * speed;
         controller.Move(positionDirection*Time.deltaTime);
 
+        
+        //flipping character
         if (positionDirection.x < 0)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
@@ -49,6 +54,7 @@ public class CharacterMovement : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 0, 0);
         }
 
+        //isWalking
         if (positionDirection.x == 0)
         {
             anim.SetBool("isWalking", false);
@@ -58,14 +64,13 @@ public class CharacterMovement : MonoBehaviour
             anim.SetBool("isWalking", true);
         }
         
-        if (positionDirection.y == 0)
+        if (positionDirection.x > 0)
         {
-            anim.SetBool("isWalking", false);
+            transform.eulerAngles = new Vector3(0, 0, 0);
         }
-        else
-        {
-            anim.SetBool("isWalking", true);
-        }
+
+        //isJumping
+        
     }
 }
 
