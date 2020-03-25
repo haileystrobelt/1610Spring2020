@@ -26,6 +26,7 @@
             <e p="CollectableList.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
+            <e p="NavAgentBehavior.cs" t="Include" />
             <e p="StringData.cs" t="Include" />
             <e p="VectorData.cs" t="Include" />
           </e>

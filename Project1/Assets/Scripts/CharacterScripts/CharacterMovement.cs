@@ -28,6 +28,15 @@ public class CharacterMovement : MonoBehaviour
             jumpCount = 0;
         }
 
+        if (Input.GetKeyDown("space"))
+        {
+            anim.SetBool("isJumping", true);
+        }
+        else
+        {
+            anim.SetBool("isJumping",false);
+        }
+
        
         
         positionDirection.x = Input.GetAxis("Horizontal")*speed;
