@@ -36,6 +36,15 @@ public class CharacterMovement : MonoBehaviour
         {
             anim.SetBool("isJumping",false);
         }
+        
+        if (Input.GetKey(KeyCode.Z))
+                {
+                    anim.SetBool("isAttacking", true);
+                }
+                else
+                {
+                    anim.SetBool("isAttacking",false);
+                }
 
        
         
