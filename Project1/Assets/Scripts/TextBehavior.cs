@@ -1,5 +1,4 @@
-﻿using System.Net.Mime;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Text))]
@@ -7,7 +6,6 @@ using UnityEngine.UI;
 public class TextBehavior : MonoBehaviour
 {
     private Text textObj;
-    public IntData dataObj;
     
     void Start()
     {
@@ -15,9 +13,14 @@ public class TextBehavior : MonoBehaviour
 
     }
 
-
-    void Update()
+    public void ChangeText(string message)
     {
-        textObj.text = dataObj.value.ToString();
+        textObj.text = message;
     }
+
+    public void ChangeText(IntData obj)
+    {
+        textObj.text = obj.value.ToString();
+    }
+
 }
