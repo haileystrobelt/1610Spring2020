@@ -8,23 +8,25 @@ public class Coroutines : MonoBehaviour
     public float seconds = 1f;
     public IntData numberData;
 
-    public UnityEvent startEvent, repeatEvent, endEvent;
+    public UnityEvent startEvent, repeatEvent, endEvent, postEndEvent;
+    private WaitForSeconds waitObj;
     
-    
-    IEnumerator Start()
+    private IEnumerator Start()
     {
+        waitObj = new WaitForSeconds(seconds);
         startEvent.Invoke();
-        
         while (counter > 0)
         {
             numberData.value = counter;
-            yield return new WaitForSeconds(seconds);
+            yield return waitObj;
             repeatEvent.Invoke();
             counter--;
             
         }
-        yield return new WaitForSeconds(seconds);
+        yield return waitObj;
         endEvent.Invoke();
+        yield return waitObj;
+        postEndEvent.Invoke();
     }
 
   
