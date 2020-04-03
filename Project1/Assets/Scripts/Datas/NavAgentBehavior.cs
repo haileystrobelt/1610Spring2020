@@ -12,8 +12,10 @@ public class NavAgentBehavior : MonoBehaviour
     public Transform player;
     public float speed = 8f;
     private Transform currentDestination;
-    
-    public List<Transform>
+    private int i;
+    private bool canHunt;
+
+    public List<Transform> patrolPoints;
 
 
     void Start()
@@ -25,6 +27,7 @@ public class NavAgentBehavior : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        canHunt = true;
         currentDestination = player;
     }
 
@@ -35,6 +38,17 @@ public class NavAgentBehavior : MonoBehaviour
 
     void Update()
     {
-        agent.destination = player.position;
+        if (canHunt)
+        {
+            agent.destination = currentDestination.position;
+            return;
+        }
+        
+
+        if (!agent.pathPending && agent.remainingDistance < 0.5f)
+        {
+            agent.destination = patrolPoints[i].position;
+            i = (i + 1) % patrolPoints.Count;
+        }
     }
 }
