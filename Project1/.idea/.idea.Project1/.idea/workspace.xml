@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3fe8c8e-90b0-4a30-a14b-cabcce1edeae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Datas/NavAgentBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Datas/NavAgentBehavior.cs" afterDir="false" />
-    </list>
+    <list default="true" id="d3fe8c8e-90b0-4a30-a14b-cabcce1edeae" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,8 +230,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="674" />
-    <option name="y" value="53" />
+    <option name="x" value="263" />
+    <option name="y" value="86" />
     <option name="width" value="698" />
     <option name="height" value="547" />
   </component>
@@ -335,12 +332,12 @@
       <workItem from="1585369513341" duration="841000" />
       <workItem from="1585585034216" duration="3598000" />
       <workItem from="1585757095059" duration="2172000" />
-      <workItem from="1585892949873" duration="1448000" />
+      <workItem from="1585892949873" duration="2046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77427000" />
+    <option name="totallyTimeSpent" value="78025000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,8 +349,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="674" y="53" width="698" height="547" extended-state="0" />
-    <editor active="true" />
+    <frame x="263" y="86" width="698" height="547" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12068965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
