@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3fe8c8e-90b0-4a30-a14b-cabcce1edeae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterScripts/Shooter.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <marker date="1586795712831" expanded="true" signature="56:297" ph="{...}" />
                 <marker date="1586795712831" expanded="true" signature="105:199" ph="{...}" />
@@ -42,14 +42,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Datas/CollectableList.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding>
-                <marker date="1583946567882" expanded="false" signature="6:78" ph="..." />
-                <marker date="1583946567882" expanded="true" signature="146:203" ph="{...}" />
+                <marker date="1586970484080" expanded="true" signature="66:374" ph="{...}" />
+                <marker date="1586970484080" expanded="true" signature="160:279" ph="{...}" />
+                <marker date="1586970484080" expanded="true" signature="327:372" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -202,6 +203,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NewClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Datas/NavAgentBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Flip.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -250,12 +252,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Datas/NavAgentBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Flip.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterScripts/Shooter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="739" />
-    <option name="y" value="103" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="651" />
+    <option name="y" value="165" />
     <option name="width" value="698" />
     <option name="height" value="547" />
   </component>
@@ -359,12 +362,12 @@
       <workItem from="1585892949873" duration="2046000" />
       <workItem from="1586231206162" duration="771000" />
       <workItem from="1586362331095" duration="2726000" />
-      <workItem from="1586795555292" duration="748000" />
+      <workItem from="1586795555292" duration="1806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82270000" />
+    <option name="totallyTimeSpent" value="83328000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,7 +379,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="739" y="103" width="698" height="547" extended-state="1" />
+    <frame x="651" y="165" width="698" height="547" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13009404" />
@@ -768,12 +771,24 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterScripts/Shooter.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <marker date="1586795712831" expanded="true" signature="56:297" ph="{...}" />
             <marker date="1586795712831" expanded="true" signature="105:199" ph="{...}" />
             <marker date="1586795712831" expanded="true" signature="153:193" ph="{...}" />
             <marker date="1586795712831" expanded="true" signature="216:295" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <marker date="1586970484080" expanded="true" signature="66:374" ph="{...}" />
+            <marker date="1586970484080" expanded="true" signature="160:279" ph="{...}" />
+            <marker date="1586970484080" expanded="true" signature="327:372" ph="{...}" />
           </folding>
         </state>
       </provider>
