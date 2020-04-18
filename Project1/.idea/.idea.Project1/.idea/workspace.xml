@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3fe8c8e-90b0-4a30-a14b-cabcce1edeae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project1/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d3fe8c8e-90b0-4a30-a14b-cabcce1edeae" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +43,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            <state relative-caret-position="90">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding>
-                <marker date="1586970484080" expanded="true" signature="66:374" ph="{...}" />
-                <marker date="1586970484080" expanded="true" signature="160:279" ph="{...}" />
-                <marker date="1586970484080" expanded="true" signature="327:372" ph="{...}" />
+                <marker date="1586970517078" expanded="true" signature="66:366" ph="{...}" />
+                <marker date="1586970517078" expanded="true" signature="160:271" ph="{...}" />
+                <marker date="1586970517078" expanded="true" signature="319:364" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -257,8 +255,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="651" />
-    <option name="y" value="165" />
+    <option name="x" value="265" />
+    <option name="y" value="171" />
     <option name="width" value="698" />
     <option name="height" value="547" />
   </component>
@@ -362,12 +360,12 @@
       <workItem from="1585892949873" duration="2046000" />
       <workItem from="1586231206162" duration="771000" />
       <workItem from="1586362331095" duration="2726000" />
-      <workItem from="1586795555292" duration="1806000" />
+      <workItem from="1586795555292" duration="2436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83328000" />
+    <option name="totallyTimeSpent" value="83958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,8 +377,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="651" y="165" width="698" height="547" extended-state="0" />
-    <editor active="true" />
+    <frame x="265" y="171" width="698" height="547" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13009404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -783,12 +780,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
-            <marker date="1586970484080" expanded="true" signature="66:374" ph="{...}" />
-            <marker date="1586970484080" expanded="true" signature="160:279" ph="{...}" />
-            <marker date="1586970484080" expanded="true" signature="327:372" ph="{...}" />
+            <marker date="1586970517078" expanded="true" signature="66:366" ph="{...}" />
+            <marker date="1586970517078" expanded="true" signature="160:271" ph="{...}" />
+            <marker date="1586970517078" expanded="true" signature="319:364" ph="{...}" />
           </folding>
         </state>
       </provider>
